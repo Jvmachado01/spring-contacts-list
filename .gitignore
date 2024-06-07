@@ -1,0 +1,48 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Arquivos Java compilados
+target/
+
+# Mantém o arquivo Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignora os diretórios target dentro de src/main e src/test
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorar diretório node_modules
+/node_modules
+
+# Arquivo de configuração específico da aplicação Spring Boot
+src/main/resources/application.properties
+
+# Ignorar a pasta frontend/node_modules
+frontend
